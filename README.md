@@ -946,6 +946,8 @@ After processing the commands, SRAF generates an HTML report detailing the test 
   - Percentage of passed and failed tests.
   - Detailed log of each command executed, its result, and associated messages.
 
+Here is a sample screenshot of Test Suite Report:
+
 ![Suite Report](./suite-report.png)
 
 Happy automated regression testing.
