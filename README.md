@@ -931,17 +931,13 @@ Sure! Here's a brief explanation of your script formatted for GitHub markdown:
 
 # HTML Report for Test Suites
 
-After processing the commands, it generates an HTML report detailing the test results.
+After processing the commands, SRAF generates an HTML report detailing the test results.
 
 ## Key Components:
 
-- **Puppeteer Initialization**: The script utilizes the Puppeteer library to control a headless browser. 
+- **Test Result Management**: SRAF maintains counters and a list to record the number of tests run, passed, and failed.
 
-- **User Data Management**: Before launching the browser, the script checks and deletes a `user_data` directory to ensure a clean environment.
-
-- **Test Result Management**: The script maintains counters and a list to record the number of tests run, passed, and failed.
-
-- **Output Directory**: All outputs, including generated HTML reports, are saved in an `outputs` directory at the root level from where the script was executed.
+- **Output Directory**: All outputs, including generated HTML reports, are saved in an `outputs` directory at the root level from where the tests were executed.
 
 - **HTML Report Generation**: At the end of the test suite execution, an HTML report is generated providing details of each test run. This report includes:
   - Total number of tests run.
@@ -949,22 +945,4 @@ After processing the commands, it generates an HTML report detailing the test re
   - Number of tests failed.
   - Percentage of passed and failed tests.
   - Detailed log of each command executed, its result, and associated messages.
-
-The report will be saved in the `outputs` directory with a filename provided by the user when invoking the `writeReportToOutputs` function.
-
-## Execution:
-
-1. The script reads a configuration file (`config.json`) for certain parameters like if it should run headlessly and if it needs to use a proxy.
-   
-2. The main function `runCommandFiles` processes each command file listed in the provided `inputFilename`. Each line in the input file should be a path to a command file.
-
-3. The `processCommandFile` function reads a command file and executes each line/command using Puppeteer.
-
-4. Commands supported include browser actions like `open`, `observe`, `click`, `wait`, `input`, `submit`, and more.
-
-5. Each executed command gets logged in the console, and its result (success/failure) is recorded.
-
-6. After all command files have been processed, the script prints a summary of the test results to the console and generates an HTML report.
-
-
 
