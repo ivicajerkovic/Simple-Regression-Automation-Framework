@@ -1,5 +1,33 @@
 # Simple Regression Automation Framework (SRAF)
 
+## **Installation and Setup**
+
+Follow these steps to get started with the Simple Regression Automation Framework:
+
+### **1. Prerequisites**
+- Ensure you have [Node.js](https://nodejs.org/) installed on your system. If not, you can download and install it from [here](https://nodejs.org/en/download/).
+
+### **2. Download the Framework**
+- Navigate to the https://github.com/ivicajerkovic/Simple-Regression-Automation-Framework/ .
+- Click on `Simple-Regression-Automation-Framework.zip`.
+- Click the `Download` button to download the zip file to your system.
+
+### **3. Extract the Framework**
+- Once downloaded, locate the `Simple-Regression-Automation-Framework.zip` file on your system.
+- Right-click (or Ctrl-click on macOS) on the zip file and select `Extract All` (the exact option might vary based on your operating system).
+- Choose a suitable location and extract the contents.
+
+### **4. Install Dependencies**
+- Navigate to the directory where you extracted the framework using your terminal or command prompt.
+- Run the following command to install necessary dependencies:
+  ```
+  npm install
+  ```
+
+### **5. Ready to Use**
+- At this point, the framework is set up and ready to use. Refer to the documentation below for further instructions.
+```
+
 ## Motivation
 The Regression Automation Framework (SRAF) emerges from the need to address the drawbacks of manual testing. Manual regression testing can be repetitive, time-consuming, error-prone, and lacks scalability. SRAF aims to make website regression testing easy by abstracting coding from testing and employing a simple English vocabulary to devise test scenarios.
 
@@ -63,12 +91,12 @@ There's an experimental version of Puppeteer for Firefox. This was in an experim
 ## Command Files
 The SRAF nodejs scripts operate based on instructions specified in "command files". These are simple text files that enumerate a series of actions for the script to undertake. Each action or command is presented on a new line, and the script follows through in sequence. Each line represents a single assertion for the overal test found in a particular command file.
 
-### **Command File Structure**
+## **Command File Structure**
 
 Each line within the command file represents a distinct action. The initial word of each line characterizes the type of the command (like `open`, `click`, `observe`, etc.), and the words or parameters that follow provide specifics for that command.
 
 
-### **Sample Single Test Command File**:
+## **Sample Single Test Command File**:
 
 ```plaintext
 open https://www.duckduckgo.com
@@ -85,14 +113,14 @@ In this example:
 4. The resulting page is scrutinized to ensure it contains the text "Private search engine".
 
 
-### **Sample Test Suite File**:
+## **Sample Test Suite File**:
 ```plaintext
 test-sample-duckduckgo-search.txt
 test-print-page-html.txt
 test-sample-get-request.txt
 ```
 
-#### Explanation:
+### Explanation:
 In this example test suite:
 
 1. The test runner is directed to execute the test command script named `test-sample-duckduckgo-search.txt`, which could perform actions related to searching on DuckDuckGo.
