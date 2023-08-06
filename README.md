@@ -28,7 +28,7 @@ Follow these steps to get started with the Simple Regression Automation Framewor
 - At this point, the framework is set up and ready to use. Refer to the documentation below for further instructions.
 
 ## Motivation
-The Regression Automation Framework (SRAF) emerges from the need to address the drawbacks of manual testing. Manual regression testing can be repetitive, time-consuming, error-prone, and lacks scalability. SRAF aims to make website regression testing easy by abstracting coding from testing and employing a simple English vocabulary to devise test scenarios.
+The Regression Automation Framework (SRAF) emerges from the need to address the drawbacks of manual testing. Manual regression testing can be repetitive, time-consuming, error-prone, and lacks scalability. SRAF aims to make website regression testing easy by abstracting coding from testing and employing a simple English vocabulary to devise test scenarios. Hence, you don't need to learn Java, Python or any other language to create regression automation scripts.
 
 ## Why Automate with SRAF?
 - **Consistency and Repeatability**: With SRAF, tests can be executed repeatedly across different environments, ensuring that the test scenarios remain consistent.
@@ -86,14 +86,12 @@ Starting with Microsoft Edge version 79, Edge switched its base to Chromium. Thi
 ### Firefox (Experimental)
 There's an experimental version of Puppeteer for Firefox. This was in an experimental phase for quite some time and may not support all Puppeteer features, but it's an indication that the team is looking to broaden Puppeteer's browser support.
 
-
 ## Command Files
 The SRAF nodejs scripts operate based on instructions specified in "command files". These are simple text files that enumerate a series of actions for the script to undertake. Each action or command is presented on a new line, and the script follows through in sequence. Each line represents a single assertion for the overal test found in a particular command file.
 
 ## **Command File Structure**
 
 Each line within the command file represents a distinct action. The initial word of each line characterizes the type of the command (like `open`, `click`, `observe`, etc.), and the words or parameters that follow provide specifics for that command.
-
 
 ## **Sample Single Test Command File**:
 
