@@ -8,7 +8,7 @@ Follow these steps to get started with the Simple Regression Automation Framewor
 - Ensure you have [Node.js](https://nodejs.org/) installed on your system. If not, you can download and install it from [here](https://nodejs.org/en/download/).
 
 ### **2. Download the Framework**
-- Navigate to the https://github.com/ivicajerkovic/Simple-Regression-Automation-Framework/ .
+- Navigate to the https://github.com/jjsarf/Simple-Regression-Automation-Framework/ .
 - Click on `Simple-Regression-Automation-Framework.zip`.
 - Click the `Download` button to download the zip file to your system.
 
