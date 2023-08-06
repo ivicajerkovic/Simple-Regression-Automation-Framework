@@ -26,7 +26,6 @@ Follow these steps to get started with the Simple Regression Automation Framewor
 
 ### **5. Ready to Use**
 - At this point, the framework is set up and ready to use. Refer to the documentation below for further instructions.
-```
 
 ## Motivation
 The Regression Automation Framework (SRAF) emerges from the need to address the drawbacks of manual testing. Manual regression testing can be repetitive, time-consuming, error-prone, and lacks scalability. SRAF aims to make website regression testing easy by abstracting coding from testing and employing a simple English vocabulary to devise test scenarios.
