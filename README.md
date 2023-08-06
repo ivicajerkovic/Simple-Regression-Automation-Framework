@@ -929,11 +929,11 @@ Sure! Here's a brief explanation of your script formatted for GitHub markdown:
 
 ---
 
-# HTML Report for Test Suites
+## HTML Report for Test Suites
 
 After processing the commands, SRAF generates an HTML report detailing the test results.
 
-## Key Components:
+### Key Components:
 
 - **Test Result Management**: SRAF maintains counters and a list to record the number of tests run, passed, and failed.
 
@@ -946,3 +946,6 @@ After processing the commands, SRAF generates an HTML report detailing the test 
   - Percentage of passed and failed tests.
   - Detailed log of each command executed, its result, and associated messages.
 
+![Suite Report](./suite-report.png)
+
+Happy automated regression testing.
